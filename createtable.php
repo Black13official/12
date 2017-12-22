@@ -1,6 +1,4 @@
-createtable.php
 <?php 
-echo "123456"; 
 try { 
 $conn = new PDO("sqlsrv:server = tcp:juuksqlserver.database.windows.net,1433; Database = Black13", "Danil", "12338110saveL"); 
 $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); 
@@ -17,5 +15,5 @@ catch (PDOException $e) {
 print("Error connecting to SQL Server."); 
 die(print_r($e)); 
 } 
-echo"123"; 
+echo"Таблица создана"; 
 ?>
