@@ -43,7 +43,7 @@ Email <input type="text"
 
     <?php
 try {
-$conn = new PDO("sqlsrv:server = tcp:pinyasova.database.windows.net,1433; Database = Black13", "Danil", "savel12338110");
+$conn = new PDO("sqlsrv:server = tcp:pinyasova.database.windows.net,1433; Database = Black13", "Danil", "12338110saveL");
 $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     
     if(isset($_POST["submit2"])){
@@ -63,7 +63,7 @@ die(print_r($e));
 }
 
 try {
-$conn = new PDO("sqlsrv:server = tcp:pinyasova.database.windows.net,1433; Database = Black13", "Danil", "savel12338110");
+$conn = new PDO("sqlsrv:server = tcp:pinyasova.database.windows.net,1433; Database = Black13", "Danil", "12338110saveL");
 $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 }
 catch (PDOException $e) {
