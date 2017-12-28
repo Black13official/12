@@ -1,6 +1,6 @@
 <?php 
 try { 
-$conn = new PDO("sqlsrv:server = tcp:juuksqlserver.database.windows.net,1433; Database = Black13", "Danil", "savel12338110"); 
+$conn = new PDO("sqlsrv:server = tcp:juuksqlserver.database.windows.net,1433; Database = Black13", "Danil", "12338110saveL"); 
 $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); 
 
 $sql = "CREATE TABLE registration_tbl( 
