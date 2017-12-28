@@ -23,7 +23,7 @@ border: 0 none; }
 </head>
 <body>
 <h1>Регистрация</h1>
-<p>Заполните своё имя, пароль, электронный адрес, а затем нажмите <strong> "Регистрация" </strong> .</p>
+<p>Заполните своё имя, пароль, адрес электронной почты, а затем нажмите <strong> "Регистрация" </strong> .</p>
 <form method="post" action="index.php"
       enctype="multipart/form-data" >
 Имя  <input type="text"
