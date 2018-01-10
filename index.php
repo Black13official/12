@@ -38,6 +38,8 @@ name="vopros" id="vopros"/></br>
 name="otvet" id="otvet"/></br> 
 <input type="submit" 
 name="submit" value="Зарегестироваться" /> 
+<input type="submit" 
+name="submit" value="Зарегестироваться" />
 <?php 
 try { 
 $conn = new PDO("sqlsrv:server = tcp:blackmamba.database.windows.net,1433; Database = Black13", "Danil", "12338110saveL");
