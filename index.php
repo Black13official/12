@@ -51,7 +51,7 @@ if(!empty($_POST)) {
 try { 
 $name = $_POST['name']; 
 $email = $_POST['email']; 
-$date = date("Y-m-d"); 
+$date = $_date("Y-m-d"); 
 $password = $_POST['password']; 
 $vopros = $_POST['vopros']; 
 $otvet = $_POST['otvet']; 
